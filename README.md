@@ -44,11 +44,11 @@ A simple web application that generates image captions using a powerful vision-l
     pip install fastapi uvicorn streamlit requests python-multipart
     ```
 
-4.  **Install Ollama and download LLaMA 2 model**:
+4.  **Install Ollama and download LLaVA model**:
     Download and install Ollama from [https://ollama.com](https://ollama.com)
-    Then, pull the LLaMA 2 model locally:
+    Then, pull the LLaVA model locally:
     ```bash
-    ollama pull llama2
+    ollama pull LLaVA
     ```
 
 ---
@@ -68,8 +68,10 @@ A simple web application that generates image captions using a powerful vision-l
 
 ---
 
+
 ## 📝 Usage
 
-Simply enter or paste any long text into the input box on the Streamlit page and click "Summarize". The backend will send your text to LLaMA 2 running in Ollama and display the generated summary below the input box.
-
+- Upload an image using the Streamlit interface.
+- Click Generate Caption.
+- The backend sends the image to LLaVA and displays the resulting caption.
 ---
