@@ -20,8 +20,8 @@ A simple web application that generates image captions using a powerful vision-l
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/llama-text-summarizer.git](https://github.com/your-username/llama-text-summarizer.git)
-    cd llama-text-summarizer
+    git clone https://github.com/your-username/image-caption-generator-llava.git
+    cd image-caption-generator-llava
     ```
 
 2.  **Create and activate a Python virtual environment**:
